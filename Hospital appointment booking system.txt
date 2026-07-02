@@ -1,0 +1,158 @@
+#  Hospital Appointment Booking System
+
+## Project Overview
+
+The Hospital Appointment Booking System is a menu-driven application developed using **Python** and **MySQL**. The project helps in managing hospital appointments by providing separate functionalities for administrators and patients.
+The system allows administrators to manage doctors, patients, and appointments, while patients can register, log in, and book appointments with available doctors.
+
+---
+
+##  Objectives
+
+- Automate the hospital appointment booking process.
+- Store hospital records permanently using MySQL.
+- Provide separate modules for Admin and Patient.
+- Perform CRUD operations using Python and SQL.
+- Build a simple, user-friendly menu-driven application.
+
+---
+
+## Technologies Used
+
+- Python 3
+- MySQL
+- MySQL Workbench
+- mysql-connector-python
+- Jupyter Notebook
+- Visual Studio Code
+
+---
+
+##  Database Used
+
+Database Name: hospital_db
+
+
+Tables Created:
+
+- admin
+- doctors
+- patients
+- appointments
+
+---
+
+##  Features
+
+### Admin Module
+
+- Admin Login
+- Add Doctor
+- View Doctors
+- Delete Doctor
+- View Registered Patients
+- View All Appointments
+- Update Appointment Status
+- Logout
+
+---
+
+###  Patient Module
+
+- Patient Registration
+- Patient Login
+- Book Appointment
+- View My Appointments
+- Cancel Appointment
+- Logout
+
+
+
+##  SQL Concepts Used
+
+- CREATE DATABASE
+- CREATE TABLE
+- INSERT
+- SELECT
+- DELETE
+- WHERE Clause
+- INNER JOIN
+- PRIMARY KEY
+- FOREIGN KEY
+- AUTO_INCREMENT
+
+
+
+##  Python Concepts Used
+
+- Functions
+- Menu Driven Programming
+- while Loop
+- if-elif-else
+- Lists
+- Tuples
+- Global Variables
+- Database Connectivity
+
+
+
+
+## Project Structure
+
+Hospital-Appointment-System/
+│
+├── hospital_project.ipynb
+├── hospital_db.sql
+├── README.md
+
+
+
+## Application Flow
+
+
+Main Menu
+│
+├── Admin Login
+│   ├── Add Doctor
+│   ├── View Doctors
+│   ├── Delete Doctor
+│   ├── View Patients
+│   ├── View All Appointments
+│   └── Logout
+│
+├── Patient Registration
+│
+├── Patient Login
+│   ├── Book Appointment
+│   ├── View My Appointments
+│   ├── Search doctor by specialization
+│   ├── cancel Appointments
+│   └── Logout
+│
+└── Exit
+
+
+##  Learning Outcomes
+
+Through this project, the following concepts were implemented and understood:
+
+- Python and MySQL Integration
+- Database Design
+- CRUD Operations
+- SQL JOIN Queries
+- User Authentication
+- Menu-Driven Application Development
+- Modular Programming using Functions
+
+
+
+##  Future Enhancements
+
+- Doctor Search by Specialization
+- Password Encryption
+- GUI using Tkinter
+- Email Notifications
+- Admin Dashboard
+
+
+
